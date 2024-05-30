@@ -1,0 +1,11 @@
+console.log("Pasos para descargar e instalar la Aplicacion Steam en PC:");
+console.log("1- Abre el navegador de su preferencia");
+console.log("2- Escibe en el buscador 'Steam' y entra a la pagina oficial, o si no entra al siguiente Link:https://store.steampowered.com/?l=spanish");
+console.log("3- En la pagina haga click en el recuadro verde en la parte superior derecha");
+console.log("4- Haga click el recuadro azul que dice 'Instalar Steam', lo que procedera a descargar un Archivo");
+console.log("5- Luego ve a su carpeta de descargas, puede dirigirse buscando en su barra de tareas 'Descargas' y entra a la capeta");
+console.log("6- Haga doble click en el archivo llamado 'SteamSetup'");
+console.log("7- Le saldra un ventana que dice 'Esta aplicacion quiere hacer cambios en su equipo', sellecciona Si");
+console.log("8- Se le abrira un instalador en el que debe clickear la casilla 'Siguiente' dos veces y por ultimo 'Instalar'");
+console.log("9- Espera a que se instale el programa");
+console.log("10- Una vez finalizado puede cerrar el instalador y abrir el programa");
