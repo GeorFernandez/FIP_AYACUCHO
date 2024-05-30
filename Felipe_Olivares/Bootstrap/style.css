@@ -1,0 +1,41 @@
+div.bloque1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    height: 400px;
+    background-image: url(https://imgs.search.brave.com/sglHzYjQ91rsmKoATEAicA2Em6WzBvUQOVwaqMu5zb0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdDUu/ZGVwb3NpdHBob3Rv/cy5jb20vMTA0NDAw/NzIvNjcwMjQvaS80/NTAvZGVwb3NpdHBo/b3Rvc182NzAyNDAw/MDItc3RvY2stcGhv/dG8tYmVhY2hzaWRl/LXRvdXJpc20tbGFu/ZHNjYXBlLWx1eHVy/aW91cy1iZWFjaC5q/cGc);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+div.bloque1>p{
+    text-align: justify;
+    width: 70%;
+}
+
+div.bloque2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+div.bloque2>button{
+    text-align: justify;
+    margin: 30px;
+}
+
+.carrousel1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+
