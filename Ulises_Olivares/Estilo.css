@@ -1,0 +1,73 @@
+.box2{
+    padding: 2%;
+    width: 70%;
+    border: 10px solid rgba(0, 0, 0, 0.641) ;
+    
+    border-radius: 15px;
+    background: rgb(59, 56, 56);
+}
+  
+@keyframes fire-flow-border {
+    0% {border-color: #ff0000;}
+    25% {border-color: #ff6600;}
+    50% {border-color: #dbb300f5;}
+    75% {border-color: #ff6600;}
+    100% {border-color: #ff0000;}
+}
+
+
+.titulo {
+    border: 3px solid;
+    border-radius: 20px;
+    animation: fire-flow-border 30s infinite;
+}
+
+.fuente-titulo {
+    font-size: 18px;
+    font: bold;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    padding: 2px;
+    color: rgba(251, 253, 255, 0.815);
+
+}
+.fuente-parrafo {
+    font-size: 18px;
+    font: bold;
+    text-align: justify;
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    color: rgba(251, 253, 255, 0.815);
+
+}
+.box1 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    background-image:url(Imagenes/volcan.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+
+.imagen-pocicion{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:  stretch;
+    text-align: center;
+    margin: 3%;
+}
+.estilo-imagen{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid rgba(0, 0, 0, 0.641) ;
+}
