@@ -1,0 +1,47 @@
+body{
+    color: rgb(10, 10, 10);
+    font-family:"Sofia", sans-serif;
+}
+header {
+    background-color:rgb(148, 26, 230);
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    width:98%;
+}
+.contenedor{
+    background-color:rgb(26, 230, 186);
+    width: 800px;   
+    margin-left: 280px;
+    display: flex;
+    justify-content:space-around;
+}
+.pie{
+    background-color:rgb(148, 26, 230);
+    display: flex;
+    justify-content:center;
+    height: 100px;
+}
+.redes{
+    display: flex;
+    justify-content:space-evenly;
+}
+.iconoredes{
+    height: 40px;
+    width: 40px;
+}
+
+nav a.icon{
+    text-decoration: none;
+    display: block;
+    
+    
+}
+nav a:hover{
+    cursor: pointer;
+    background-color: rgb(177, 115, 211);
+}
+nav a:active{
+    background-color: rgb(212, 28, 99);
+}
