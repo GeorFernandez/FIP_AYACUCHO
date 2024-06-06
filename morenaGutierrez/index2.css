@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #000000;
+    margin: 5;
+    padding: 5;
+}
+
+
+
+
+
+.encabezado {
+    background-color: #581c1cd5;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid #180707;
+}
+
+.menu, .menu2 {
+    align-self: flex-end;
+    background-color: #291010;
+}
+
+.link {
+    padding: 0;
+    gap: 50px; 
+    display: inline;
+    color: #882aa5;
+    text-align: justify;
+}
+
+.logo {
+    align-self: flex-start;
+}
+
+
+
+
+
+
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.columna {
+    flex: 1;
+    flex-direction: row;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #581c1cd5;
+    text-align: center;
+    border: 1px solid #180707;
+
+}
+.pjs{
+    text-align: left;
+}
+.italic{
+    font-style:italic;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.contenedor-dos {
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: row;
+}
+
+.largo {
+    flex: 3;
+    padding: 0 10px;
+    margin-right: 20px;
+    background-color: #581c1cd5;
+    text-align: center;
+    border: 1px solid #180707;
+}
+
+.corto {
+    flex: 1;
+    padding: 20px;
+    background-color: #581c1cd5;
+    text-align: center;
+    border: 1px solid #180707;
+}
+
+
+
+
+
+.pie {
+    background-color: #581c1cd5;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid #180707;
+}
+
+.elemento {
+    display: inline-block;
+    background-color: #291010;
+    border: 1px solid #180707;
+    align-self: flex-end;
+}
+
+.elemento a {
+    color: #882aa5;
+    margin: 0 5px;
+    text-decoration: underline;
+}

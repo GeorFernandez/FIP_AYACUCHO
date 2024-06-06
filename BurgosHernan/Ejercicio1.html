@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burgos Hernán Andrés - Ejercicio 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #264653;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            color: white;
+            font-family: "DM Serif Display", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 5em;
+        }
+        .main-container {
+            max-width: 80%;
+            display: flex;
+            flex-direction: column;
+        }
+        p {
+            width: 50vw;
+            color: white;
+            margin-top: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+        }
+        .parent-box {
+            background-color: #2A9D8F;
+        }
+        .margin-box {
+            margin: 20px 20px 20px 20px;
+        }
+        .border-box {
+            border-top: 20px;
+            border-right: 20px;
+            border-left: 20px;
+            border-bottom: 20px;
+            border-style: solid;
+            border-color: #E9C46A;
+        }
+        .padding-box {
+            background-color: #F4A261;
+            padding: 20px;
+        }
+        .content-box {
+            background-color: #E76F51;
+            height: 50vh;
+            width: 50vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .monalisa {
+            position: absolute;
+            clip-path: inset(18% 25% 10% 25%);
+            max-width: 100%;
+            max-height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h1>La Mona Lisa</h1>
+        <div class="parent-box">
+            <div class="margin-box">
+                <div class="border-box">
+                    <div class="padding-box">
+                        <div class="content-box">
+                            <img class="monalisa" src="Ejercicio1SVG.svg" alt="Monalisa" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>La Gioconda, también conocida como Mona Lisa, es uno de los retratos más emblemáticos de la historia de la pintura. Pintado por Leonardo Da Vinci en el siglo XVI, entró a las colecciones de la corte de Francia para finalmente formar parte de las obras de arte exhibidas en el Museo del Louvre.</p>
+    </div>
+</body>
+</html>
